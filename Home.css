@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Mono+One&display=swap');
+
+@font-face {
+    font-family: BobbyJones-Condensed;
+    src: url(Bobby\ Rough\ Soft.ttf);
+}
+
+@media screen and (orientation: landscape){
+
+a{
+    text-decoration: none;
+}
+
+.Flowers {
+    margin-top: 3%;
+}
+
+.Flower1 {
+    overflow: hidden;
+    width: 16%;
+    height: 16%;
+}
+
+.Flower2 {
+    overflow: hidden;
+    width: 16%;
+    height: 16%
+}
+
+.Flower3 {
+    width: 16%;
+    height: 16%;
+}
+
+.Flower4 {
+    width: 16%;
+    height: 16%;
+}
+
+.Flower5 {
+    width: 16%;
+    height: 16%;
+}
+
+.Flower6 {
+    width: 16%;
+    height: 16%;
+}
+
+.Change {
+    display: none;
+}
+
+.Charity {
+    font-family: BobbyJones-Condensed;
+    text-align: center;
+    font-size: 5vw;
+    line-height: 0.3;
+    margin-top: 5%;
+}
+
+.Blurb {
+    font-family: Quicksand;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.9vw;
+    font-weight: 700;
+}
+
+.More {
+    font-family: BobbyJones-Condensed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 0px;
+    font-size: 2vw;
+    background-color: #8aa7ff;
+    border-radius: 10px;
+}
+
+.one {
+    font-family: BobbyJones-Condensed;
+}
+
+}
+
+ @media screen and (orientation: portrait){
+    .Flower1 {
+        display: none;
+    }
+
+    .Flower2 {
+        display: none;
+    }
+
+    .Flower3 {
+        display: none;
+    }
+
+    .Flower4 {
+        display: none;
+    }
+
+    .Flower5 {
+        display: none;
+    }
+
+    .Flower6 {
+        display: none;
+    }
+
+    .More {
+        display: none;
+    }
+
+    .Charity {
+        display: none;
+    }
+
+    .Blurb {
+        display: none;
+    }
+
+    .Change {
+        padding: none;
+        position: fixed;
+        width: 95%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+ }

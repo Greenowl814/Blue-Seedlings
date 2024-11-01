@@ -122,6 +122,10 @@ a{
         display: none;
     }
 
+    .More {
+        display: none;
+    }
+
     .Change {
         padding: none;
         position: fixed;
